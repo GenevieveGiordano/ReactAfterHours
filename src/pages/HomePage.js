@@ -1,16 +1,11 @@
-import SiteAlert from "../components/SiteAlert";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import StickersList from "../features/StickersList";
+import BreadCrumbs from "../components/BreadCrumbs";
 
 const HomePage = () => {
   return (
-    <>
-    <SiteAlert />
-    <Header />
-    <StickersList/>
-    <Footer />
-    </>
+    <div>
+      <BreadCrumbs current='Home'/>
+    <h1 className="text-center">Welcome to After Hours</h1>
+    </div>
   )
 }
 

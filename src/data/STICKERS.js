@@ -16,13 +16,13 @@ import SatsukiImg from '../app/img/Satsuki-k.png';
 import TaeTakemiImg from '../app/img/TaeTakemi-k.png';
 import MuichiroImg from '../app/img/Muichiro-k.png';
 import MajorasMaskImg from '../app/img/MajorasMask-b.png';
-import KleeImg from '../app/img/Klee-b.png';
+// import KleeImg from '../app/img/Klee-b.png';
 
 
 
 export const STICKERS = [
     {
-        id: 1,
+        id: 17,
         name: 'Ryuko',
         anime: 'Kill La Kill',
         image: RyukoImg,
@@ -30,7 +30,7 @@ export const STICKERS = [
     },
 
     {
-        id: 1,
+        id: 16,
         name: 'Satsuki',
         anime: 'Kill La Kill',
         image: SatsukiImg,
@@ -38,7 +38,15 @@ export const STICKERS = [
     },
 
     {
-        id: 0,
+        id: 15,
+        name: 'Tae Takemi',
+        anime: 'Persona 5',
+        image: TaeTakemiImg,
+        featured: false,
+    },
+
+    {
+        id: 14,
         name: 'Tengen Uzui',
         anime: 'Demon Slayer',
         image: TengenUzuiImg,
@@ -46,7 +54,7 @@ export const STICKERS = [
     },
 
     {
-        id: 2,
+        id: 13,
         name: 'Shinobu',
         anime: 'Demon Slayer',
         image: ShinobuImg,
@@ -54,7 +62,7 @@ export const STICKERS = [
     },
 
     {
-        id: 0,
+        id: 12,
         name: 'Mitsuri Kanroji',
         anime: 'Demon Slayer',
         image: MitsuriKanrojiPinkImg,
@@ -62,7 +70,15 @@ export const STICKERS = [
     },
 
     {
-        id: 0,
+        id: 11,
+        name: 'Mitsuri Kanroji',
+        anime: 'Demon Slayer',
+        image: MitsuriKanrojiWhiteImg,
+        featured: false,
+    },
+
+    {
+        id: 10,
         name: 'Akaza',
         anime: 'Demon Slayer',
         image: AkazaImg,
@@ -70,7 +86,7 @@ export const STICKERS = [
     },
 
     {
-        id: 4,
+        id: 9,
         name: 'Muichiro',
         anime: 'Demon Slayer',
         image: MuichiroImg,
@@ -78,7 +94,7 @@ export const STICKERS = [
     },
 
     {
-        id: 5,
+        id: 8,
         name: 'Rengoku Kyojuro',
         image: RengokuImg,
         featured: false,
@@ -93,7 +109,7 @@ export const STICKERS = [
     // },
 
     {
-        id: 5,
+        id: 7,
         name: "Majora's Mask",
         game: "The Legend of Zelda: Majora's Mask",
         image: MajorasMaskImg,
@@ -101,7 +117,7 @@ export const STICKERS = [
     },
 
     {
-        id: 5,
+        id: 6,
         name: 'Red',
         game: 'Pokemon',
         image: RedImg,
@@ -109,7 +125,7 @@ export const STICKERS = [
     },
 
     {
-        id: 1,
+        id: 5,
         name: 'Dawn',
         game: 'Pokemon',
         image: DawnImg,
@@ -117,7 +133,7 @@ export const STICKERS = [
     },
 
     {
-        id: 1,
+        id: 4,
         name: 'Ness',
         game: 'Earthbound',
         image: NessImg,
@@ -125,7 +141,7 @@ export const STICKERS = [
     },
 
     {
-        id: 1,
+        id: 3,
         name: 'Paula',
         game: 'Earthbound',
         image: PaulaImg,
@@ -133,7 +149,7 @@ export const STICKERS = [
     },
 
     {
-        id: 4,
+        id: 2,
         name: 'Jeff',
         image: JeffImg,
         featured: false,
@@ -148,7 +164,7 @@ export const STICKERS = [
     },
 
     {
-        id: 3,
+        id: 0,
         name: 'Jack Frost',
         game: 'Persona 5',
         image: JackFrostImg,

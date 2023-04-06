@@ -1,0 +1,41 @@
+$btn-bg: linear-gradient(#5373ca, rgb(84, 42, 124));
+$btn-border: #000000;
+$search-txt: #000000;
+$search-bg: rgb(255, 255, 255);
+$icon: rgba(0, 0, 0, 0.678);
+
+
+.search-bar-container {
+display: flex;
+align-items: center;
+justify-content: flex-end;  
+}
+
+
+.nav-button {
+    background-image: $btn-bg;
+    border: 1px solid $btn-border;
+    border-radius: 10px;
+    color: $icon;
+    cursor: pointer;
+    font-size: 1.2em;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    position:relative;
+
+}
+
+.search-input {
+    height: 32px;
+    /* width: auto; not needed */
+    border: none;
+    border-radius: 30px;
+    border: 1px solid $btn-border;
+    color: $search-txt;
+    padding: 5px;
+    padding-left: 10px;
+    outline: none;
+    background-color: $search-bg;
+    transform: translateX(18%);
+}
